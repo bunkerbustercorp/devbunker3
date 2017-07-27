@@ -1,14 +1,14 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
-/backend/node_modules
-/frontend/node_modules
+/devbunker-server/node_modules
+/devbunker-client/node_modules
 
 # testing
-/frontend/coverage
+/devbunker-client/coverage
 
 # production
-/frontend/build
+/devbunker-client/build
 
 # misc
 .DS_Store
@@ -17,12 +17,12 @@
 .env.test.local
 .env.production.local
 
-/frontend/npm-debug.log*
-/frontend/yarn-debug.log*
-/frontend/yarn-error.log*
-/frontend/yarn.lock*
+/devbunker-client/npm-debug.log*
+/devbunker-client/yarn-debug.log*
+/devbunker-client/yarn-error.log*
+/devbunker-client/yarn.lock*
 
-/backend/npm-debug.log*
-/backend/yarn-debug.log*
-/backend/yarn-error.log*
-/backend/yarn.lock*
+/devbunker-server/npm-debug.log*
+/devbunker-server/yarn-debug.log*
+/devbunker-server/yarn-error.log*
+/devbunker-server/yarn.lock*

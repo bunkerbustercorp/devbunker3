@@ -1,0 +1,27 @@
+.header-contents {
+    width: 1200px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+    @include media('<wide') {
+        width: 992px;
+    }
+
+    @include media('<tablet') {
+        width: 100%;
+    }
+
+    @import 'HeaderLogo';
+
+    .header-spacer {
+        flex-grow: 1;
+    }
+
+    @import 'HeaderUserThumbnail';
+    @import 'HeaderLoginButton';
+}

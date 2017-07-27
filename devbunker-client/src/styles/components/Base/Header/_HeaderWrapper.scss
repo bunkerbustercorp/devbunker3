@@ -1,0 +1,23 @@
+.header-positioner {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    box-shadow: $box-shadow-1;
+    z-index: 20;
+
+    .header-background {
+        background: white;
+        display: flex;
+        justify-content: center;
+        height: auto;
+        
+        @import 'HeaderContents';
+    }
+
+    .header-border {
+        height: 3px;
+        background: linear-gradient(to right, $oc-teal-6, $oc-cyan-5);
+    }
+}

@@ -1,0 +1,14 @@
+.auth-positioner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .auth-shadowbox {
+        width: 500px;
+       box-shadow: $box-shadow-2;
+    }
+
+    @import 'AuthLogo';
+    @import 'AuthContents';
+}

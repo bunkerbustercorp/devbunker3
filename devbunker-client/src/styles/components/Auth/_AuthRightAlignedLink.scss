@@ -1,0 +1,11 @@
+.auth-aligner {
+    margin-top: 1rem;
+    text-align: right;
+
+    .auth-styledlink {
+        color: $oc-gray-6;
+        &:hover {
+            color: $oc-gray-7;
+        }
+    }
+}
